@@ -36,6 +36,7 @@ public class GwtDevOptionsImpl implements GwtDevOptions {
 	private String startupUrl;
 	private Boolean superDevMode;
 	private Boolean startServer;
+	private String[] jvmArgs;
 
 	/** {@inheritDoc} */
 	@Override
